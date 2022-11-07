@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ui/home.dart';
+import 'package:ui/search.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      // home: Home(),
+      home: SearchScreen(),
     );
   }
 }
